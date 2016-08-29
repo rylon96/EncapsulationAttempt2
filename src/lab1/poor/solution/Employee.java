@@ -1,12 +1,11 @@
-package lab1.solution;
+package lab1.poor.solution;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * In this lab your challenge is to fix the code in both classes to use
- * proper encapsulation and the other best practices as explained by 
- * your instructor.
+ * This solution solves some, but not all encapsulation and best practice problems.
+ * Can you identify the good and bad parts?
  *
  * @author      Jim Lombardo, WCTC Instructor
  * @version     1.01

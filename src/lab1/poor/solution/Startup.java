@@ -1,4 +1,4 @@
-package lab1.solution;
+package lab1.poor.solution;
 
 /**
  * In this lab your challenge is to fix the code in both classes to use

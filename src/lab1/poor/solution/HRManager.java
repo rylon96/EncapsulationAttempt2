@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-package lab1.solution;
+package lab1.poor.solution;
 
 /**
+ * This solution solves some, but not all encapsulation and best practice problems.
+ * Can you identify the good and bad parts?
  *
- * @author Jim
+ * @author      Jim Lombardo, WCTC Instructor
+ * @version     1.01
  */
 public class HRManager {
     private Employee employee;
