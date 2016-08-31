@@ -1,4 +1,4 @@
-package lab1;
+package lab1.my.solution;
 public class HRManager {
     private Employee employee;
     
