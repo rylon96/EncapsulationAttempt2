@@ -27,7 +27,7 @@ public class Employee {
         currentDate = new Date();
     }
     
-    public void doOrientation(String cubeId){
+    public void orientEmployee(String cubeId){
         this.meetWithHrForBenefitAndSalryInfo();
         this.meetDepartmentStaff();
         this.reviewDeptPolicies();

@@ -8,7 +8,7 @@ public class HRManager {
         e.setFirstName(firstName);
         e.setLastName(lastName);
         e.setSsn(ssn);
-        e.doOrientation("A101");
+        e.orientEmployee("A101");
         employee = e;
         
         
