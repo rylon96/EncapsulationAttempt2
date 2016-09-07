@@ -40,13 +40,13 @@ public class Employee {
     }
 
     // Assume this must be performed first
-    private void meetWithHrForBenefitAndSalryInfo() {
+    public void meetWithHrForBenefitAndSalryInfo() {
         System.out.println("Met with Hr on " + getFormattedDate());
         metWithHr = true;
     }
 
     // Assume this is must be performed second
-    private void meetDepartmentStaff() {
+    public void meetDepartmentStaff() {
         if(metWithHr) {
             System.out.println("Met with Dept. Staff on " + getFormattedDate());
             metDeptStaff = true;
@@ -57,7 +57,7 @@ public class Employee {
     }
 
     // Assume this must be performed third
-    private void reviewDeptPolicies() {
+    public void reviewDeptPolicies() {
         if(metWithHr && metDeptStaff) {
             System.out.println("Reviewed Dept. Policies on " + getFormattedDate());
             reviewedDeptPolicies = true;
@@ -69,7 +69,7 @@ public class Employee {
     }
 
     // Assume this must be performed 4th
-    private void moveIntoCubicle(String cubeId) {
+    public void moveIntoCubicle(String cubeId) {
         if(metWithHr && metDeptStaff && reviewedDeptPolicies) {
 
             System.out.println("Moved into cube on " + getFormattedDate());
